@@ -74,6 +74,12 @@ p {
 .p-2 { padding: 2rem; }
 .p-3 { padding: 3rem; }
 
+.pics {
+    width: flex;
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+
 .btn {
     display: inline-block;
     color: #fff;
@@ -201,7 +207,23 @@ p {
 #clients .items img {
     display: block;
     margin: auto;
-    width: 60%;
+    width: 80%;
+}
+
+/* Section: Steps */
+#steps .items {
+    display: flex;
+    width: 100%;
+}
+
+#steps .items img {
+    display: flex;
+    margin: auto;
+    width: 100%;
+}
+
+#steps .bck {
+    background: #333;
 }
 
 /* Section: Contact */
